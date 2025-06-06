@@ -41,5 +41,5 @@ Cowrie triggers defensive script that:
 - Kibana dashboards
 - Volatility results
 - Honeypot logs and alerts
-- Full technical report (in report/)
+- Full technical report (all of these are in report/)
 
