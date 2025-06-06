@@ -1,0 +1,7 @@
+Technique ID,Technique Name,Rule Severity,Risk Score,Executions,Alert Score
+T1057,Process Discovery,Medium,47,2,94
+T1547,Registry Persistence,High,73,1,73
+T1071.001,HTTP C2 Communication,Medium,47,3,141
+T1055,Process Injection (Simulated),High,73,1,73
+T1047,WMI Execution,Critical,99,4,396
+T1059.001,PowerShell Execution,Medium,47,6,282

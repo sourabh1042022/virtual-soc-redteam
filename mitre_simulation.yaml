@@ -1,0 +1,17 @@
+name: Atomic Red Team CI
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  simulate-attacks:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Run Atomic Red Team Simulations
+        run: |
+          python replay_attacks.py
